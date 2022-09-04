@@ -1,0 +1,11 @@
+.canvas{
+    background-color: #fff;
+    width:78%;
+    height:90vh;
+    margin: 5vh auto 0 ;
+}
+.sample-canvas{
+    width:100%;
+    height:100%;
+    border:1px solid black;
+}

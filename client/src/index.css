@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: all ease 0.3s;
+}
+
+h2 {
+  margin: 1rem 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+
+
+button:active {
+  opacity: 0.5;
+}
+
+span a {
+  text-decoration: none;
+  color: rgb(43, 7, 111);
+}
+nav{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+nav button {
+  background-color: #ff512f;
+  border-radius: 30px;
+  max-width: 150px;
+  margin: .2rem auto;
+  color: #fff;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+nav button:hover {
+  background-color: #ff522f9d;
+  color: white;
+}
+
+.App .canvas {
+  margin: .5rem auto;
+}
+.paint-body{
+  width: 100%;
+  max-height: 100vh;
+}
